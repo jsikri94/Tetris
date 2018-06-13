@@ -1,8 +1,4 @@
-/*
-I wasn't able to implement Point-Inside-Polygon to change shape in PAUSE
-mode and couldn't implement changing height and width of main area.
-I also haven't tried the part for extra credit.
-*/
+
 import java.awt.*;
 import javax.swing.*;
 import java.util.*;
@@ -17,10 +13,6 @@ import javax.swing.Timer;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
 
-
-
-
-
 public class Tetris{
 	public static void main(String args[]){
 		JFrame frame = new JFrame("Tetris Part 3");
@@ -30,10 +22,6 @@ public class Tetris{
 		frame.setVisible(true);
 	}
 }
-
-
-
-
 
 class TPanel extends JPanel implements ActionListener, ChangeListener{
 
@@ -446,9 +434,6 @@ class TPanel extends JPanel implements ActionListener, ChangeListener{
 		}
 		return right; 
 	}
-
-
-
 
 	//Initializing different dimensions and canvas variables
 	void initDim(){
